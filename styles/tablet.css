@@ -53,4 +53,34 @@
   .list__items.active::before {
     width: 100%;
   }
+
+  main {
+    margin-top: 7.5rem;
+  }
+
+  .home-section__link {
+    position: relative;
+    transition: 0.4s;
+  }
+
+  .home-section__link:hover {
+    transition: border 0.4s ease 0s;
+  }
+
+  .home-section__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-image: linear-gradient(to right top, #eee89c, #dbeaa7, #cbeab3, #bee9c0, #b7e7cb);
+    z-index: -1;
+    transition: 0.4s ease;
+  }
+
+  .home-section__link:hover::before {
+    width: 100%;
+    transition: 0.4s ease;
+  }
 }
