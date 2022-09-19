@@ -292,6 +292,8 @@ main {
   border: 1px solid black;
   /* max-width: 483px; */
   /* max-width: 563px; */
+
+  max-width: 325px;
 }
 
 .card__img {
@@ -337,4 +339,11 @@ main {
 .card__links {
   display: flex;
   gap: 24px;
+}
+
+.card-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
