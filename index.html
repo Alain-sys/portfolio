@@ -25,10 +25,10 @@
       <nav class="menu">
         <ul class="list">
           <div class="list__block">
-            <li class="list__items list__items-home active"><a class="list__link" href="#">Home</a></li>
-            <li class="list__items list__items-about"><a class="list__link" href="#">About</a></li>
-            <li class="list__items list__items-work"><a class="list__link" href="#">Work</a></li>
-            <li class="list__items list__items-contact"><a class="list__link" href="#">Contact</a></li>
+            <li class="list__items list__items-home active"><a class="list__link" href="#home">Home</a></li>
+            <li class="list__items list__items-about"><a class="list__link" href="#about">About</a></li>
+            <li class="list__items list__items-work"><a class="list__link" href="#work">Work</a></li>
+            <li class="list__items list__items-contact"><a class="list__link" href="#contact">Contact</a></li>
           </div>
         </ul>
       </nav>
@@ -40,7 +40,7 @@
         <a class="home-section__link" href="#">Contact me</a>
       </section>
       <section id="about" class="about-section">
-        <h2 class="about-section__title">About me</h2>
+        <h2 class="section__title about-section__title">About Me</h2>
         <div class="about-section__description">
           <p>
             Self-taught junior Front-End Developer, looking for a new remote role in an exciting company. I’m based near Paris, FR, and have
@@ -52,17 +52,91 @@
           </p>
 
           <p>Here are the technologies I used :</p>
-          <ul class="about-section__technologies">
+          <ul class="about-section__list">
             <div>
-              <li>html</li>
-              <li>css</li>
-              <li>js</li>
+              <li class="about-section__list__items">html</li>
+              <li class="about-section__list__items">css</li>
+              <li class="about-section__list__items">js</li>
             </div>
             <div>
-              <li>react</li>
-              <li>sass</li>
+              <li class="about-section__list__items">react</li>
+              <li class="about-section__list__items">sass</li>
             </div>
           </ul>
+        </div>
+      </section>
+
+      <section id="work" class="work-section">
+        <h2 class="section__title work-section__title">My Work</h2>
+        <div class="all-cards">
+          <div class="card">
+            <img class="card__img" src="./images/planets-fact-site.webp" alt="" />
+            <div class="card__content">
+              <h3 class="card__title">Planets fact site</h3>
+              <p class="card__text">
+                An 8 pages fact site for all planets in our solar system. View the internal structure and the geology of each planets in our solar
+                system. I used a data.json for display each planets with the corresponding data. The project is fully responsive.
+              </p>
+              <div class="card__footer">
+                <p class="card__languages">react / css</p>
+                <div class="card__links">
+                  <a href="https://github.com/Alain-sys/planets-fact-site"><img src="./images/icon-github.svg" alt="" /></a>
+                  <a href="https://alain-sys.github.io/planets-fact-site/"><img src="./images/icon-external-link.svg" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card__img" src="./images/e-commerce.webp" alt="" />
+            <div class="card__content">
+              <h3 class="card__title">E-commerce product page</h3>
+              <p class="card__text">
+                Product page in which the product quantity can be modified and product adding to a cart. In the cart the product is deletable and the
+                quantity modifiable. The project is fully responsive.
+              </p>
+              <div class="card__footer">
+                <p class="card__languages">react / css</p>
+                <div class="card__links">
+                  <a href="https://github.com/Alain-sys/e-commerce-product-page"><img src="./images/icon-github.svg" alt="" /></a>
+                  <a href="https://alain-sys.github.io/e-commerce-product-page/"><img src="./images/icon-external-link.svg" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card__img" src="./images/todo-app.webp" alt="" />
+            <div class="card__content">
+              <h3 class="card__title">Todo app</h3>
+              <p class="card__text">
+                The todo includes a dark/light theme toggle. The tasks can be checked, filtered in three options and deleted. The project is fully
+                responsive.
+              </p>
+              <div class="card__footer">
+                <p class="card__languages">react / css</p>
+                <div class="card__links">
+                  <a href="https://github.com/Alain-sys/todo-app"><img src="./images/icon-github.svg" alt="" /></a>
+                  <a href="https://alain-sys.github.io/todo-app/"><img src="./images/icon-external-link.svg" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card__img" src="./images/caclulator.webp" alt="" />
+            <div class="card__content">
+              <h3 class="card__title">Calculator app</h3>
+              <p class="card__text">The calculator includes three themes colors and is compatible with keyboard. The project is fully responsive.</p>
+              <div class="card__footer">
+                <p class="card__languages">react / css</p>
+                <div class="card__links">
+                  <a href="https://github.com/Alain-sys/calculator-app"><img src="./images/icon-github.svg" alt="" /></a>
+                  <a href="https://alain-sys.github.io/calculator-app/"><img src="./images/icon-external-link.svg" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

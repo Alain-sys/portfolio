@@ -225,7 +225,7 @@ main {
   gap: 1.75rem;
 }
 
-.about-section__title {
+.section__title {
   font-size: var(--fs-title);
   line-height: var(--lh-title);
   width: 100%;
@@ -234,13 +234,24 @@ main {
   align-items: center;
 }
 
-.about-section__title::after {
+.section__title::after {
   content: '';
   display: block;
   height: 4px;
   width: 100%;
-  background-color: var(--clr-about);
   margin-left: 8px;
+}
+
+.about-section__title::after {
+  background-color: var(--clr-about);
+}
+
+.work-section__title::after {
+  background-color: var(--clr-work);
+}
+
+.contact-section__title::after {
+  background-color: var(--clr-contact);
 }
 
 .about-section__description {
@@ -249,10 +260,81 @@ main {
   gap: 1rem;
 }
 
-.about-section__description > p {
-  font-size: var(--fs-text);
-  line-height: var(--lh-text);
+.about-section__list {
+  display: flex;
+  list-style: inside url(../images/icon-list-style.svg);
+  gap: 64px;
 }
 
-.about-section__technologies {
+.about-section__list__items {
+  font-size: var(--fs-language);
+  line-height: var(--lh-language);
+  color: var(--clr-text);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+}
+
+.work-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 125px;
+  gap: 1.75rem;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card {
+  border: 1px solid black;
+  /* max-width: 483px; */
+  /* max-width: 563px; */
+}
+
+.card__img {
+  width: 100%;
+  /* height: 236px; */
+  /* max-height: 350px; */
+  object-fit: cover;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 20px 0.9375rem;
+}
+
+.card__title {
+  font-size: var(--fs-project);
+  line-height: var(--lh-project);
+  color: var(--fs-text);
+}
+
+.card__text {
+  font-size: var(--fs-text);
+  line-height: var(--lh-text);
+  color: var(--clr-text);
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__languages {
+  font-size: var(--fs-language);
+  line-height: var(--lh-language);
+  color: var(--clr-text);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+}
+
+.card__links {
+  display: flex;
+  gap: 24px;
 }
