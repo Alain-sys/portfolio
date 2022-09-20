@@ -13,8 +13,8 @@
     <title>Alain Vaccari</title>
   </head>
 
-  <body>
-    <header>
+  <body class="body-overflow">
+    <header id="header-scroll">
       <a class="logo" href="#home">
         <img src="./images/logo AV.svg" alt="logo" />
       </a>
@@ -23,17 +23,18 @@
         <span class="hamburger__bar"></span>
       </button>
       <nav class="menu">
+        <span class="background-blur"></span>
         <ul class="list">
           <div class="list__block">
-            <li class="list__items list__items-home active"><a class="list__link" href="#home">Home</a></li>
-            <li class="list__items list__items-about"><a class="list__link" href="#about">About</a></li>
-            <li class="list__items list__items-work"><a class="list__link" href="#work">Work</a></li>
-            <li class="list__items list__items-contact"><a class="list__link" href="#contact">Contact</a></li>
+            <li class="list__items"><a class="list__links list__link-home active" href="#home">Home</a></li>
+            <li class="list__items"><a class="list__links list__link-about" href="#about">About</a></li>
+            <li class="list__items"><a class="list__links list__link-work" href="#work">Work</a></li>
+            <li class="list__items"><a class="list__links list__link-contact" href="#contact">Contact</a></li>
           </div>
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="main">
       <section id="home" class="home-section">
         <h1 class="home-section__title">Hi, I'm Alain Vaccari</h1>
         <p class="home-section__description">Front-End Developer</p>
@@ -69,39 +70,37 @@
       <section id="work" class="work-section">
         <h2 class="section__title work-section__title">My Work</h2>
         <div class="all-cards">
-          <div class="card-column">
-            <div class="card">
-              <img class="card__img" src="./images/planets-fact-site.webp" alt="" />
-              <div class="card__content">
-                <h3 class="card__title">Planets fact site</h3>
-                <p class="card__text">
-                  An 8 pages fact site for all planets in our solar system. View the internal structure and the geology of each planets in our solar
-                  system. I used a data.json for display each planets with the corresponding data. The project is fully responsive.
-                </p>
-                <div class="card__footer">
-                  <p class="card__languages">react / css</p>
-                  <div class="card__links">
-                    <a href="https://github.com/Alain-sys/planets-fact-site"><img src="./images/icon-github.svg" alt="" /></a>
-                    <a href="https://alain-sys.github.io/planets-fact-site/"><img src="./images/icon-external-link.svg" alt="" /></a>
-                  </div>
+          <div class="card">
+            <img class="card__img" src="./images/planets-fact-site.webp" alt="" />
+            <div class="card__content">
+              <h3 class="card__title">Planets fact site</h3>
+              <p class="card__text">
+                An 8 pages fact site for all planets in our solar system. View the internal structure and the geology of each planets in our solar
+                system. I used a data.json for display each planets with the corresponding data. The project is fully responsive.
+              </p>
+              <div class="card__footer">
+                <p class="card__languages">react / css</p>
+                <div class="card__links">
+                  <a href="https://github.com/Alain-sys/planets-fact-site"><img src="./images/icon-github.svg" alt="" /></a>
+                  <a href="https://alain-sys.github.io/planets-fact-site/"><img src="./images/icon-external-link.svg" alt="" /></a>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="card">
-              <img class="card__img" src="./images/e-commerce.webp" alt="" />
-              <div class="card__content">
-                <h3 class="card__title">E-commerce product page</h3>
-                <p class="card__text">
-                  Product page in which the product quantity can be modified and product adding to a cart. In the cart the product is deletable and
-                  the quantity modifiable. The project is fully responsive.
-                </p>
-                <div class="card__footer">
-                  <p class="card__languages">react / css</p>
-                  <div class="card__links">
-                    <a href="https://github.com/Alain-sys/e-commerce-product-page"><img src="./images/icon-github.svg" alt="" /></a>
-                    <a href="https://alain-sys.github.io/e-commerce-product-page/"><img src="./images/icon-external-link.svg" alt="" /></a>
-                  </div>
+          <div class="card">
+            <img class="card__img card__img-order" src="./images/e-commerce.webp" alt="" />
+            <div class="card__content">
+              <h3 class="card__title">E-commerce product page</h3>
+              <p class="card__text">
+                Product page in which the product quantity can be modified and product adding to a cart. In the cart the product is deletable and the
+                quantity modifiable. The project is fully responsive.
+              </p>
+              <div class="card__footer">
+                <p class="card__languages">react / css</p>
+                <div class="card__links">
+                  <a href="https://github.com/Alain-sys/e-commerce-product-page"><img src="./images/icon-github.svg" alt="" /></a>
+                  <a href="https://alain-sys.github.io/e-commerce-product-page/"><img src="./images/icon-external-link.svg" alt="" /></a>
                 </div>
               </div>
             </div>
@@ -126,7 +125,7 @@
           </div>
 
           <div class="card">
-            <img class="card__img" src="./images/caclulator.webp" alt="" />
+            <img class="card__img card__img-order" src="./images/caclulator.webp" alt="" />
             <div class="card__content">
               <h3 class="card__title">Calculator app</h3>
               <p class="card__text">The calculator includes three themes colors and is compatible with keyboard. The project is fully responsive.</p>

@@ -1,10 +1,7 @@
 @media (min-width: 48em) {
-  body {
-    padding: 0 40px;
-  }
-
   header {
     align-items: initial;
+    padding: 16px 40px;
   }
 
   .hamburger {
@@ -35,7 +32,7 @@
     position: relative;
   }
 
-  .list__items::before {
+  .list__links::before {
     position: absolute;
     width: 0;
     height: 4px;
@@ -46,16 +43,17 @@
     transition: 0.4s ease;
   }
 
-  .list__items:hover::before {
+  .list__links:hover::before {
     width: 100%;
   }
 
-  .list__items.active::before {
+  .list__links.active::before {
     width: 100%;
   }
 
   main {
     margin-top: 7.5rem;
+    padding: 0 40px;
   }
 
   .home-section__link {
@@ -82,5 +80,26 @@
   .home-section__link:hover::before {
     width: 100%;
     transition: 0.4s ease;
+  }
+
+  .all-cards {
+    gap: 4rem;
+  }
+
+  .card {
+    display: flex;
+  }
+
+  .card__img {
+    width: 50%;
+    max-height: 100%;
+  }
+
+  /* .card__img-order {
+    order: 1;
+  } */
+
+  .card__content {
+    width: 50%;
   }
 }
