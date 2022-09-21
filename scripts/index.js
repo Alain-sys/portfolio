@@ -64,7 +64,8 @@ listLinks.forEach((element) => {
   });
 });
 
-let prevScrollpos = window.scrollY;
+let prevScrollPos = window.scrollY;
+
 window.onscroll = function () {
   let currentScrollPos = window.scrollY;
 
@@ -76,10 +77,11 @@ window.onscroll = function () {
     // header.style.backgroundColor = 'hsla(0, 23%, 97%, 1)';
   }
 
-  if (prevScrollpos > currentScrollPos) {
+  if (prevScrollPos > currentScrollPos) {
     header.style.top = '0';
   } else {
-    header.style.top = '-100px';
+    header.style.top = '-85px';
   }
-  prevScrollpos = currentScrollPos;
+
+  prevScrollPos = currentScrollPos;
 };

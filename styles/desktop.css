@@ -1,9 +1,10 @@
 @media (min-width: 64em) {
   body {
-    padding: 0 55px;
+    padding: 9.375rem 55px;
   }
 
   main {
-    margin-top: 150px;
+    max-width: 1024px;
+    margin: auto;
   }
 }

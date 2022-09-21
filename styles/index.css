@@ -31,6 +31,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 94px;
 }
 
 body {
@@ -60,8 +61,10 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  left: 0;
   transition: 0.3s;
   background-color: hsla(0, 0%, 100%, 1);
+  z-index: 2;
 }
 
 .logo {
@@ -218,6 +221,7 @@ main {
 .home-section {
   min-height: 100vh;
   padding-top: 9.375rem;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -263,6 +267,7 @@ main {
   display: block;
   height: 4px;
   width: 100%;
+  max-width: 300px;
   margin-left: 8px;
 }
 
@@ -345,6 +350,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: auto;
 }
 
 .card__languages {
@@ -355,7 +361,19 @@ main {
   text-transform: uppercase;
 }
 
-.card__links {
+.card__block-links {
   display: flex;
   gap: 24px;
+}
+
+.card__links {
+  display: flex;
+}
+
+.card__links:nth-child(1):hover path {
+  fill: var(--clr-contact);
+}
+
+.card__links:nth-child(2):hover path {
+  stroke: var(--clr-contact);
 }
