@@ -52,7 +52,7 @@
   }
 
   main {
-    padding: 0 40px;
+    padding: 0 55px;
   }
 
   .home-section__link {
@@ -94,11 +94,19 @@
     max-height: 100%;
   }
 
-  /* .card__img-order {
-    order: 1;
-  } */
-
   .card__content {
     width: 50%;
+  }
+
+  .show-more {
+    cursor: pointer;
+  }
+
+  .show-more:hover {
+    background-color: hsla(145.7, 50.5%, 81%, 0.5);
+  }
+
+  footer {
+    padding: 0 55px;
   }
 }
