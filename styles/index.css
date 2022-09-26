@@ -7,6 +7,8 @@
 }
 
 :root {
+  --fs-name: clamp(2.5rem, 5vw + 1rem, 5rem);
+  --fs-subtitle: clamp(2rem, 2.5vw + 1rem, 3rem);
   --fs-title: 2.5rem;
   --fs-text: 1rem;
   --fs-language: 0.8125rem;
@@ -27,6 +29,8 @@
   --clr-work: hsla(145, 50%, 81%, 1);
   --clr-contact: hsla(320, 54%, 83%, 1);
   --clr-text: hsla(245, 10%, 22%, 1);
+  --clr-contact-links: hsla(320.3, 37.6%, 69.2%, 1);
+  --clr-home-links: hsla(145.7, 36.3%, 73.5%, 1);
 
   --m-title: 1.75rem;
   --m-button: 2.5rem;
@@ -232,14 +236,12 @@ main {
 }
 
 .home-section__title {
-  font-size: var(--fs-title);
-  line-height: var(--lh-title);
+  font-size: var(--fs-name);
 }
 
-.home-section__description {
-  margin: var(--m-title) 0 var(--m-button) 0;
-  font-size: var(--fs-text);
-  line-height: var(--lh-text);
+.home-section__subtitle {
+  margin-bottom: var(--m-button);
+  font-size: var(--fs-subtitle);
 }
 
 .home-section__link {
@@ -403,22 +405,12 @@ main {
   display: flex;
 }
 
-.card__links:nth-child(1):hover path {
-  fill: var(--clr-contact);
-}
-
-.card__links:nth-child(2):hover path {
-  stroke: var(--clr-contact);
-}
-
 .show-more {
   font-size: var(--fs-link);
   color: var(--clr-text);
   text-transform: uppercase;
   padding: 1.0625rem 2rem;
-  border: 3px solid;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(to right top, #eee89c, #dbeaa7, #cbeab3, #bee9c0, #b7e7cb);
+  border: 3px solid var(--clr-home-links);
 }
 
 footer {
@@ -447,6 +439,12 @@ footer {
   align-items: center;
 }
 
+.contact-email {
+  color: var(--clr-contact-links);
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+}
+
 .contact-block-network {
   display: flex;
   gap: 24px;
@@ -455,8 +453,4 @@ footer {
 
 .contact-social-network {
   display: flex;
-}
-
-.contact-social-network:hover path {
-  fill: var(--clr-contact);
 }
