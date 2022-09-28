@@ -222,17 +222,24 @@ header {
 }
 
 main {
-  padding: 0 25px;
   margin-bottom: 7.8125rem;
 }
 
 .home-section {
   min-height: 100vh;
   padding-top: 9.375rem;
-
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+}
+
+.home-section__banner {
+  width: 100%;
+  height: 176px;
+  object-fit: cover;
+}
+
+.home-section__content {
+  padding: 0 25px;
 }
 
 .home-section__title {
@@ -258,7 +265,7 @@ main {
 .about-section {
   display: flex;
   flex-direction: column;
-  gap: var(--m-title);
+  padding: 0 25px;
 }
 
 .section__title,
@@ -296,6 +303,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin-top: var(--m-title);
 }
 
 .about-section__list {
@@ -328,6 +336,7 @@ main {
   flex-direction: column;
   margin-top: 7.8125rem;
   align-items: center;
+  padding: 0 25px;
 }
 
 .primary-block-card {

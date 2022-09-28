@@ -52,6 +52,13 @@
   }
 
   main {
+  }
+
+  .home-section__banner {
+    height: auto;
+  }
+
+  .home-section__content {
     padding: 0 55px;
   }
 
@@ -79,6 +86,14 @@
   .home-section__link:hover::before {
     width: 100%;
     transition: 0.4s ease;
+  }
+
+  .about-section {
+    padding: 0 55px;
+  }
+
+  .work-section {
+    padding: 0 55px;
   }
 
   .all-cards {

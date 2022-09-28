@@ -1,10 +1,29 @@
 @media (min-width: 64em) {
+  :root {
+    --m-title: 2.5rem;
+  }
+
   body {
   }
 
   main {
+    margin-bottom: 7.8125rem;
+  }
+
+  .home-section__content {
+    width: 1024px;
     max-width: 1024px;
-    margin: 0 auto 7.8125rem auto;
+    margin: 0 auto;
+  }
+
+  .about-section {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .work-section {
+    max-width: 1024px;
+    margin: 7.8125rem auto 0 auto;
   }
 
   .secondary-sub-block-card {
@@ -19,5 +38,12 @@
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 120em) {
+  .home-section__banner {
+    max-width: 1920px;
+    margin: auto;
   }
 }
