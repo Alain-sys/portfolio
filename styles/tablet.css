@@ -115,7 +115,7 @@
   }
 
   footer {
-    padding: 0 55px;
+    padding: 0 55px calc(var(--m-title) * 2) 55px;
   }
 
   .contact-email:hover {

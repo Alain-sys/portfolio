@@ -242,6 +242,7 @@ main {
 .home-section__subtitle {
   margin-bottom: var(--m-button);
   font-size: var(--fs-subtitle);
+  margin-top: 0.625rem;
 }
 
 .home-section__link {
@@ -299,16 +300,27 @@ main {
 
 .about-section__list {
   display: flex;
-  list-style: inside url(../images/icon-list-style.svg);
+  list-style: none;
   gap: 64px;
 }
 
 .about-section__list__items {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: var(--fs-language);
   line-height: var(--lh-language);
   color: var(--clr-text);
   font-weight: var(--fw-bold);
   text-transform: uppercase;
+}
+
+.about-section__list__items::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--clr-about);
 }
 
 .work-section {
@@ -414,8 +426,7 @@ main {
 }
 
 footer {
-  padding: 0 25px;
-  margin-bottom: calc(var(--m-title) * 2);
+  padding: 0 25px calc(var(--m-title) * 2) 25px;
 }
 
 .contact-content {
