@@ -1,7 +1,13 @@
 @media (min-width: 48em) {
+  :root {
+    --m-title: 2rem;
+    --m-card: 2.5rem;
+  }
+
   header {
     align-items: initial;
     padding: 16px 40px;
+    padding: 16px 55px;
   }
 
   .hamburger {
@@ -51,8 +57,8 @@
     width: 100%;
   }
 
-  .home-section__banner {
-    height: auto;
+  .home-section {
+    padding-top: calc(var(--m-section) + 74px);
   }
 
   .home-section__content {
@@ -87,6 +93,7 @@
 
   .about-section {
     padding: 0 55px;
+    margin-top: 80px;
   }
 
   .work-section {
@@ -99,6 +106,7 @@
 
   .card {
     display: flex;
+    flex-direction: row;
   }
 
   .card__img {
@@ -108,6 +116,10 @@
 
   .card__content {
     width: 50%;
+  }
+
+  .card__text__link:hover {
+    text-decoration: underline;
   }
 
   .card__links:nth-child(1):hover path {
@@ -126,7 +138,7 @@
     background-color: hsla(145.7, 36.3%, 73.5%, 0.2);
   }
 
-  footer {
+  .contact__block {
     padding: 0 55px calc(var(--m-title) * 2) 55px;
   }
 
@@ -136,5 +148,9 @@
 
   .contact-social-network:hover path {
     fill: var(--clr-contact-links);
+  }
+
+  .contact__banner {
+    height: 200px;
   }
 }

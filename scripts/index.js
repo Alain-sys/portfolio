@@ -19,6 +19,12 @@ hamburger.addEventListener('click', () => {
     backgroundBlur.classList.remove('active');
     body.classList.remove('active');
   }
+
+  if (hamburgerBar.classList.contains('active')) {
+    hamburger.setAttribute('aria-label', 'close menu');
+  } else {
+    hamburger.setAttribute('aria-label', 'open menu');
+  }
 });
 
 backgroundBlur.addEventListener('click', () => {

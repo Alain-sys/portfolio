@@ -1,10 +1,7 @@
 @media (min-width: 64em) {
   :root {
     --m-title: 2.5rem;
-  }
-
-  main {
-    margin-bottom: 7.8125rem;
+    --m-section: 9.375rem;
   }
 
   .home-section__content {
@@ -13,14 +10,24 @@
     margin: 0 auto;
   }
 
+  .home-section__link {
+    margin-bottom: 175px;
+  }
+
+  .home-section__banner {
+    min-height: 300px;
+    height: auto;
+  }
+
   .about-section {
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
   }
 
   .work-section {
     max-width: 1024px;
-    margin: 7.8125rem auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .secondary-sub-block-card {
@@ -31,16 +38,15 @@
     width: 50%;
   }
 
-  footer {
+  .contact__block {
+    width: 1024px;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
   }
-}
 
-@media (min-width: 120em) {
-  .home-section__banner {
-    max-width: 1920px;
-    margin: auto;
+  .contact__banner {
+    min-height: 250px;
+    height: auto;
   }
 }
