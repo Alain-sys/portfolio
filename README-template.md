@@ -13,7 +13,3 @@ My first [portfolio](https://alain-sys.github.io/portfolio/)
 - CSS custom properties
 - Javascript
 - Mobile-first workflow
-
-<div align="center">
-   <img src="images/logo.svg" width="100" alt="Logo"/>
-</div>
