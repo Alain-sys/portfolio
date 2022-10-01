@@ -2,11 +2,6 @@
 
 My first [portfolio](https://alain-sys.github.io/portfolio/)
 
-<a href="https://alain-sys.github.io/portfolio/" target="_blank">
- <img src="images/image-portfolio-desktop.png" alt="Alain Vaccari portfolio"/>
-</a>
-
-
 ## Built with
 
 - Semantic HTML5 markup
