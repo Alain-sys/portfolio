@@ -2,12 +2,13 @@
   :root {
     --m-title: 2rem;
     --m-card: 2.5rem;
+
+    --p-section: 55px;
   }
 
   header {
     align-items: initial;
     padding: 16px 40px;
-    padding: 16px 55px;
   }
 
   .hamburger {
@@ -16,9 +17,9 @@
 
   .menu {
     visibility: visible;
-    height: auto;
-    width: auto;
     position: initial;
+    width: auto;
+    height: auto;
     opacity: 1;
   }
 
@@ -42,10 +43,10 @@
     position: absolute;
     width: 0;
     height: 4px;
-    border-radius: 0;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    border-radius: 0;
     transition: 0.4s ease;
   }
 
@@ -61,29 +62,20 @@
     padding-top: calc(var(--m-section) + 74px);
   }
 
-  .home-section__content {
-    padding: 0 55px;
-  }
-
   .home-section__link {
     position: relative;
-    transition: 0.4s;
-  }
-
-  .home-section__link:hover {
-    transition: border 0.4s ease 0s;
   }
 
   .home-section__link::before {
     content: '';
     position: absolute;
+    width: 0;
+    height: 100%;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 0;
     background-image: linear-gradient(to right top, #eee89c, #dbeaa7, #cbeab3, #bee9c0, #b7e7cb);
-    z-index: -1;
     transition: 0.4s ease;
+    z-index: -1;
   }
 
   .home-section__link:hover::before {
@@ -92,20 +84,10 @@
   }
 
   .about-section {
-    padding: 0 55px;
     margin-top: 80px;
   }
 
-  .work-section {
-    padding: 0 55px;
-  }
-
-  .all-cards {
-    gap: 4rem;
-  }
-
   .card {
-    display: flex;
     flex-direction: row;
   }
 
@@ -138,12 +120,8 @@
     background-color: hsla(145.7, 36.3%, 73.5%, 0.2);
   }
 
-  .contact__block {
-    padding: 0 55px calc(var(--m-title) * 2) 55px;
-  }
-
   .contact-email:hover {
-    opacity: 0.6;
+    opacity: 0.7;
   }
 
   .contact-social-network:hover path {

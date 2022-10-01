@@ -10,13 +10,10 @@
     margin: 0 auto;
   }
 
-  .home-section__link {
-    margin-bottom: 175px;
-  }
-
   .home-section__banner {
     min-height: 300px;
     height: auto;
+    margin-top: 175px;
   }
 
   .about-section {
@@ -46,7 +43,7 @@
   }
 
   .contact__banner {
-    min-height: 250px;
     height: auto;
+    min-height: 250px;
   }
 }
