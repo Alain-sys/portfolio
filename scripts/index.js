@@ -33,3 +33,21 @@ showMore.addEventListener('click', () => {
     secondaryBlockCard.classList.remove('active');
   }
 });
+
+// const homeLink = document.querySelector('.list__link-home');
+// const aboutLink = document.querySelector('.list__link-about');
+// const workLink = document.querySelector('.list__link-work');
+// const homeSubtitle = document.querySelector('.home-section__subtitle');
+// const userLang = navigator.language;
+
+// if (userLang.substring(0, 2) === 'fr') {
+//   homeLink.textContent = 'Accueil';
+//   aboutLink.textContent = 'À propos';
+//   workLink.textContent = 'Projets';
+//   homeSubtitle.textContent = 'Développeur Front-End';
+// } else {
+//   homeLink.textContent = 'Home';
+//   aboutLink.textContent = 'About';
+//   workLink.textContent = 'Work';
+//   homeSubtitle.textContent = 'Front-End Developer';
+// }
