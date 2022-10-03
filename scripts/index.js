@@ -35,7 +35,7 @@ showMore.addEventListener('click', () => {
 });
 
 const getAPI = async () => {
-  const response = await fetch(`./languages.json`);
+  const response = await fetch(`../scripts/languages.json`);
   let data = await response.json();
   return data;
 };
