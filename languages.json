@@ -1,0 +1,23 @@
+[
+  {
+    "fr": {
+      "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "work": "Projets",
+        "contact": "Contact"
+      }
+    }
+  },
+
+  {
+    "en": {
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "work": "Work",
+        "contact": "Contact"
+      }
+    }
+  }
+]

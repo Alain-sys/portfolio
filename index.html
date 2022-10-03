@@ -68,16 +68,16 @@
       <section id="about" class="about-section">
         <h2 class="about-section__title section__title">About Me</h2>
         <div class="about-section__description">
-          <p>
+          <p class="about-section__text-location">
             Self-taught junior Front-End Developer, looking for a new remote role in an exciting company. I’m based near Paris, FR, and have
             experience in remote teams.
           </p>
-          <p>
+          <p class="about-section__text-soft-skills">
             I am determined, organized and curious. I also like to challenge myself and I'm always keen to learn new technologies to improve. When I
             am not coding, I am practicing outdoors activities or I am enjoying a nice book.
           </p>
 
-          <p>Here are the technologies I used :</p>
+          <p class="about-section__text-technologies">Here are the technologies I used :</p>
           <div class="about-section__list">
             <ul>
               <li class="about-section__list__items">html</li>
@@ -103,9 +103,9 @@
             />
             <div class="card__content">
               <h3 class="card__title">Planets fact site</h3>
-              <p>
-                A website to learn facts about our solar system planets : a view of the internal structure, the geology and much more. I used a
-                data.json that was provided to display each planets with the corresponding data.
+              <p class="card__text-planets">
+                A website to discover planets in our solar system planets. Discover the internal structure, the geology and much more about each
+                planets. I used a data.json that was provided to display each planets with the corresponding data.
               </p>
               <div class="card__footer">
                 <p class="card__languages">react / css</p>
@@ -142,9 +142,9 @@
             />
             <div class="card__content">
               <h3 class="card__title">E-commerce product page</h3>
-              <p>
-                An e-commerce page to sell sneakers. The different pictures of the sneakers show the product. The shopping online cart work as an
-                actual one as you can add an article, delete one or emptied it.
+              <p class="card__text-e-commerce">
+                An e-commerce page to sell sneakers. The different pictures of the sneakers show the product. Choose your quantity and add it to the
+                shopping online cart. The shopping cart can be emptied.
               </p>
               <div class="card__footer">
                 <p class="card__languages">react / css</p>
@@ -177,9 +177,9 @@
             <img class="card__img" src="./images/image-todo-app.webp" alt="Todo list app in dark theme " />
             <div class="card__content">
               <h3 class="card__title">To Do list app</h3>
-              <p>
-                The 'to do' list app includes a dark/light theme toggle. When a task is completed, it can be checked or deleted. New tasks can be
-                created and added to the list. Everybody is different so the list can be seen in three different views: 'all', 'active', 'completed'.
+              <p class="card__text-todo">
+                The 'to do' list app includes a dark or light theme. A task can be added to the list and checked or deleted. Depending on their
+                status, tasks can be filtered into 'all', 'active' and 'completed.
               </p>
               <div class="card__footer">
                 <p class="card__languages">react / css</p>
@@ -212,7 +212,7 @@
             <img class="card__img card__img-order" src="./images/image-calculator-app.webp" alt="calculator app" />
             <div class="card__content">
               <h3 class="card__title">Calculator app</h3>
-              <p>
+              <p class="card__text-calculator">
                 The calculator includes three color themes. The keyboard is compatible with it so you can either use it to type the numbers or you can
                 click on the calculator ones directly.
               </p>
@@ -392,7 +392,7 @@
       <div class="contact__block">
         <h2 class="contact-title">Contact</h2>
         <div class="contact-content">
-          <p>Interested in working together?</p>
+          <p class="contact-text">Interested in working together?</p>
           <div class="contact-links">
             <a class="contact-email" href="mailto:anvcpro@tutanota.com" target="_blank">anvcpro@tutanota.com</a>
             <div class="contact-block-network">
@@ -430,5 +430,6 @@
     </footer>
     <script src="./scripts/index.js"></script>
     <script src="./scripts/menu.js"></script>
+    <script src="./languages.json"></script>
   </body>
 </html>
