@@ -1,23 +1,71 @@
 [
   {
-    "fr": {
-      "nav": {
-        "home": "Accueil",
-        "about": "À propos",
-        "work": "Projets",
-        "contact": "Contact"
-      }
-    }
+    "languages": "en",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "work": "Work",
+      "contact": "Contact"
+    },
+
+    "home_subtitle": "Front-End Developer",
+    "home_link": "Contact me",
+
+    "about_title": "About me",
+    "about_location": "Self-taught junior Front-End Developer, looking for a new remote role in an exciting company. I’m based near Paris, FR, and have experience in remote teams.",
+    "about_soft_skills": "I am determined, organized and curious. I also like to challenge myself and I'm always keen to learn new technologies to improve. When I am not coding, I am practicing outdoors activities or I am enjoying a nice book.",
+    "about_technologies": "Here are the technologies I used:",
+
+    "work_title": "My Work",
+    "projects": {
+      "planets": "A website to discover planets in our solar system planets. Discover the internal structure, the geology and much more about each planets. I used a data.json that was provided to display each planets with the corresponding data.",
+      "e_commerce": "An e-commerce page to sell sneakers. The different pictures of the sneakers show the product. Choose your quantity and add it to the shopping online cart. The shopping cart can be emptied.",
+      "todo": "The 'to do' list app includes a dark or light theme. A task can be added to the list and checked or deleted. Depending on their status, tasks can be filtered into 'all', 'active' and 'completed'.",
+      "calculator": "The calculator includes three color themes. The keyboard is compatible with it so you can either use it to type the numbers or you can click on the calculator ones directly.",
+      "github_user": "Search a github user and the app will display his profile and his details. In this project I used the Github users API to access and to display profile datas.",
+      "officelite": "A website for an upcoming fictive project. Two pages with a live countdown timer that ticks every second. On the second page only there is a contact form which verify if the fields are correctly fulfilled or not. The contact form also contains a menu with multiples options.",
+      "tip_calculator": "This project was realised in pair programming with Noëmie. It helps you figure out how much you should tip the waitress after a good meal. Choose a percentage (5%, 10%...), write how many of you were eating and it gives you the amount to tip and the total amount per person.",
+      "maker": "This is my very first project as a Front-end Developer. Landing page with a form which verifies if the email address is formatted correctly. "
+    },
+
+    "button_show_more": "Show more",
+    "button_show_less": "Show less",
+
+    "contact_text": "Interested in working together?"
   },
 
   {
-    "en": {
-      "nav": {
-        "home": "Home",
-        "about": "About",
-        "work": "Work",
-        "contact": "Contact"
-      }
-    }
+    "languages": "fr",
+    "nav": {
+      "home": "Accueil",
+      "about": "À propos",
+      "work": "Projets",
+      "contact": "Contact"
+    },
+
+    "home_subtitle": "Développeur Front-End",
+    "home_link": "Contactez-moi",
+
+    "about_title": "À propos de moi",
+    "about_location": "Développeur Front-End junior autodidacte, recherche un emploi à distance dans une entreprise excitante. Je vie proche de Paris, et j'ai de l'expérience dans les équipes à distance.",
+    "about_soft_skills": "Je suis déterminé, organisé et curieux. J'aime aussi me challenger et j'ai toujours envie d'apprendre de nouvelles technologies pour m'améliorer. Quand je ne code pas, je fais des activités à l'extérieur ou je profite d'un bon livre.",
+    "about_technologies": "Voici les technologies que j'utilise : ",
+
+    "work_title": "Mes projets",
+    "projects": {
+      "planets": "Un site pour découvrir les planètes de notre système solaire. Découvrez la structure interne, la géologie et bien plus encore de chaque planètes. J'ai utilisé un data.json fourni pour afficher chaque planète avec les données correspondantes.",
+      "e_commerce": "Un site e-commerce pour vendre des sneakers. Les différentes photos des sneakers montrent le produit. Choisissez la quantité du produit souhaitez et ajoutais le au panier. Le panier peut être vidé.",
+      "todo": "La 'to do list' inclus un thème sombre ou clair. Une tâche peut être ajoutée à la liste et cochée ou supprimées. Selon leurs états les tâches peuvent être filtrées en 'all', 'active' et 'completed'.",
+      "calculator": "La calculatrice inclus trois thèmes de couleur. Le clavier est aussi compatible pour taper les nombres ou vous pouvez directement cliquez sur les chiffres.",
+      "github_user": "Chercher un utilisateur github et l'app se chargera d'afficher ses informations de profil. Dans ce projet j'utilise la Github users API pour accèder aux données et les afficher.",
+      "officelite": "Un site pour un projet fictif à venir. Deux pages dispose d'un compte à rebours qui diminue chaque seconde. Sur la deuxième page se trouve un formulaire de contact qui vérifie si les données rentrées dedans sont correctes. Le formulaire de contact dispose aussi d'un menu avec de multiples options.",
+      "tip_calculator": "Ce projet a été réalisé en pair programming avec Noëmie. Il aide à déterminer de combien sera le pourboire après un bon repas. Choissisez un pourcentage (5%, 10%...), renseignez combien étiez-vous à manger ainsi que la somme total du repas et ça vous donnera le montant total du pourboire divisé par le nombre de personne. Ainsi que la somme total du pourboire.",
+      "maker": "Mon tout premier projet en tant que développpeur Front-End. Site vitrine avec un formulaire qui vérifie si l'adresse email est correctement formaté."
+    },
+
+    "button_show_more": "Montrer plus",
+    "button_show_less": "Montrer moins",
+
+    "contact_text": "Intéressé pour travailler ensemble ?"
   }
 ]
