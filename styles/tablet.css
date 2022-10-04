@@ -91,8 +91,11 @@
     flex-direction: row;
   }
 
-  .card__img {
+  .card__link-project {
     width: 50%;
+  }
+
+  .card__img {
     max-height: 100%;
   }
 
