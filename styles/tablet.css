@@ -100,7 +100,7 @@
     width: 50%;
   }
 
-  .card__text__link:hover {
+  .card__text-link:hover {
     text-decoration: underline;
   }
 
