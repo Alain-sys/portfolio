@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
- My first <a href="https://alain-sys.github.io/portfolio/" target="_blank">portfolio</a>
+ My first <a href="https://alain-sys.github.io/portfolio/" target="_blank">portfolio</a> designed by me.
 </p>
 
  <img src="images/image-readme-portfolio.png" alt="Alain Vaccari portfolio"/>
