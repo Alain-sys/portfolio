@@ -260,6 +260,7 @@ header {
   border-image-slice: 1;
   border-image-source: linear-gradient(to right top, #eee89c, #dbeaa7, #cbeab3, #bee9c0, #b7e7cb);
   font-size: var(--fs-link);
+  font-weight: var(--fw-bold);
   text-transform: uppercase;
 }
 
