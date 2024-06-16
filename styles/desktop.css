@@ -27,6 +27,14 @@
     margin-right: auto;
   }
 
+    .card__link-project{
+    transition: 0.2s;
+  }
+
+  .card__link-project:hover{
+    opacity: 0.8;
+  }
+
   .secondary-sub-block-card {
     flex-direction: row;
   }
