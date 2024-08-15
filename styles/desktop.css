@@ -27,20 +27,17 @@
     margin-right: auto;
   }
 
-    .card__link-project{
+  .card__link-project {
     transition: 0.2s;
   }
 
-  .card__link-project:hover{
+  .card__link-project:hover {
     opacity: 0.8;
   }
 
-  .secondary-sub-block-card {
-    flex-direction: row;
-  }
-
-  .secondary-card {
-    width: 50%;
+  .secondary-block-card.active {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .contact__block {
