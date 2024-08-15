@@ -2,12 +2,33 @@ const header = document.getElementById('header-scroll');
 const showMore = document.querySelector('.show-more');
 const secondaryBlockCard = document.querySelector('.secondary-block-card');
 
+const handleSecondaryCardHover = () => {
+  const cardsList = document.querySelectorAll('.secondary-card');
+  cardsList.forEach((card) => {
+    card.addEventListener('mouseenter', () => {
+      card.childNodes.forEach((child) => {
+        if (child.nodeType === Node.ELEMENT_NODE && child.tagName === 'H3') {
+          child.classList.add('active');
+        }
+      });
+    });
+    card.addEventListener('mouseleave', () => {
+      card.childNodes.forEach((child) => {
+        if (child.nodeType === Node.ELEMENT_NODE && child.tagName === 'H3') {
+          child.classList.remove('active');
+        }
+      });
+    });
+  });
+};
+
 showMore.addEventListener('click', () => {
   showMore.classList.toggle('active');
 
   if (showMore.classList.contains('active')) {
     showMore.textContent = 'Show less';
     secondaryBlockCard.classList.add('active');
+    handleSecondaryCardHover();
   } else {
     showMore.textContent = 'Show more';
     secondaryBlockCard.classList.remove('active');
@@ -33,3 +54,5 @@ window.onscroll = function () {
 
   prevScrollPos = currentScrollPos;
 };
+
+

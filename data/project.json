@@ -1,0 +1,88 @@
+{
+  "mainProjects": [
+    {
+      "title": "Planets fact site",
+      "description": "This is my first project in React. It allows to discover the planets of our solar system. Discover the internal structure and the geology of the planets. I used a json file that was provided to display each planets with the corresponding data.",
+      "image": "./images/image-planets-fact-site.webp",
+      "imageAlternativeText": "Drawing of Mercury planet with geology and structure description",
+      "technology": "React",
+      "github": "https://github.com/Alain-sys/planets-fact-site",
+      "liveUrl": "https://alain-sys.github.io/planets-fact-site/"
+    },
+    {
+      "title": "To Do list app",
+      "description": "Allows users to manage their daily tasks. Uses React and CSS. Features include adding, deleting, and updating tasks, as well as filtering tasks by status (active, completed).",
+      "image": "./images/image-todo-app.webp",
+      "imageAlternativeText": "Todo list app in dark theme",
+      "technology": "React",
+      "github": "https://github.com/Alain-sys/todo-app",
+      "liveUrl": "https://alain-sys.github.io/todo-app/"
+    },
+    {
+      "title": "E-commerce product page",
+      "description": "An e-commerce page to sell sneakers. The different pictures of the sneakers show the product. Choose your quantity and add it to the shopping online cart. The shopping cart can be emptied.",
+      "image": "./images/image-e-commerce.webp",
+      "imageAlternativeText": "Sneakers product page with it pictures and description",
+      "technology": "React",
+      "github": "https://github.com/Alain-sys/e-commerce-product-page",
+      "liveUrl": "https://alain-sys.github.io/e-commerce-product-page/"
+    },
+    {
+      "title": "Calculator app",
+      "description": "Interactive calculator app in JavaScript featuring basic operations (addition, subtraction, multiplication, division). Uses CSS for styling and theme changes.",
+      "image": "./images/image-calculator-app.webp",
+      "imageAlternativeText": "calculator app",
+      "technology": "html / css / js",
+      "github": "https://github.com/Alain-sys/calculator-app",
+      "liveUrl": "https://alain-sys.github.io/calculator-app/"
+    }
+  ],
+  "secondaryProjects": [
+    {
+      "title": "Github user search app",
+      "description": "Creation of an application that allows searching for GitHub users by their username and displaying their information (repos, followers, etc.) using the GitHub REST API. Handling HTTP requests with JavaScript (fetch API).",
+      "technology": "html / css / js",
+      "github": "https://github.com/Alain-sys/github-user-search-app",
+      "liveUrl": "https://alain-sys.github.io/github-user-search-app/"
+    },
+    {
+      "title": "Tip calculator app",
+      "description": "This project was realised in pair programming with <a class='card__text-link' href='https://github.com/Vcna-0'>Noëmie</a>. It helps you figure out how much you should tip the waitress after a good meal. Choose a percentage (5%, 10%...), write how many of you were eating and it gives you the amount to tip and the total amount per person.",
+      "technology": "html / css / js",
+      "github": "https://github.com/Alain-sys/Tip-calculator-app",
+      "liveUrl": "https://alain-sys.github.io/Tip-calculator-app/"
+    },
+    {
+      "title": "Officelite coming soon site",
+      "description": "A website for an upcoming fictive project. Two pages with a live countdown timer that ticks every second. On the second page there is a contact form which verify if the fields are correctly fulfilled or not. The contact form also contains a menu with multiples options.",
+      "technology": "html / css / js",
+      "github": "https://github.com/Alain-sys/Officelite-coming-soon-site",
+      "liveUrl": "https://alain-sys.github.io/Officelite-coming-soon-site/"
+    },
+    {
+      "title": "Maker pre launch landing page",
+      "description": "This is my very first project as a Front-end Developer. Landing page with a form which verifies if the email address is formatted correctly.",
+      "technology": "html / css / js",
+      "github": "https://github.com/Alain-sys/maker-pre-launch-landing-page",
+      "liveUrl": "https://alain-sys.github.io/maker-pre-launch-landing-page/"
+    }
+  ],
+  "schoolProjects": [
+    {
+      "title": "test title",
+      "description": "test description",
+      "image": "test image",
+      "technology": "react",
+      "github": "http",
+      "liveUrl": "http"
+    },
+    {
+      "title": "test title",
+      "description": "test description",
+      "image": "test image",
+      "technology": "react",
+      "github": "http",
+      "liveUrl": "http"
+    }
+  ]
+}
