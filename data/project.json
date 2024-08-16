@@ -1,15 +1,6 @@
 {
   "mainProjects": [
     {
-      "title": "Planets fact site",
-      "description": "This is my first project in React. It allows to discover the planets of our solar system. Discover the internal structure and the geology of the planets. I used a json file that was provided to display each planets with the corresponding data.",
-      "image": "./images/image-planets-fact-site.webp",
-      "imageAlternativeText": "Drawing of Mercury planet with geology and structure description",
-      "technology": "React",
-      "github": "https://github.com/Alain-sys/planets-fact-site",
-      "liveUrl": "https://alain-sys.github.io/planets-fact-site/"
-    },
-    {
       "title": "To Do list app",
       "description": "Allows users to manage their daily tasks. Uses React and CSS. Features include adding, deleting, and updating tasks, as well as filtering tasks by status (active, completed).",
       "image": "./images/image-todo-app.webp",
@@ -19,13 +10,13 @@
       "liveUrl": "https://alain-sys.github.io/todo-app/"
     },
     {
-      "title": "E-commerce product page",
-      "description": "An e-commerce page to sell sneakers. The different pictures of the sneakers show the product. Choose your quantity and add it to the shopping online cart. The shopping cart can be emptied.",
-      "image": "./images/image-e-commerce.webp",
-      "imageAlternativeText": "Sneakers product page with it pictures and description",
+      "title": "Planets fact site",
+      "description": "First project built with React, an interactive site presenting data about planets. Utilized dynamic components and state management to display information through tabs (internal structure, geology, etc.). Responsive interface.",
+      "image": "./images/image-planets-fact-site.webp",
+      "imageAlternativeText": "Drawing of Mercury planet with geology and structure description",
       "technology": "React",
-      "github": "https://github.com/Alain-sys/e-commerce-product-page",
-      "liveUrl": "https://alain-sys.github.io/e-commerce-product-page/"
+      "github": "https://github.com/Alain-sys/planets-fact-site",
+      "liveUrl": "https://alain-sys.github.io/planets-fact-site/"
     },
     {
       "title": "Calculator app",
@@ -35,6 +26,15 @@
       "technology": "html / css / js",
       "github": "https://github.com/Alain-sys/calculator-app",
       "liveUrl": "https://alain-sys.github.io/calculator-app/"
+    },
+    {
+      "title": "E-commerce product page",
+      "description": "Development of an e-commerce product page in React, featuring full shopping cart management and an interactive image slider system for product presentation. The project highlights dynamic management of products to add or remove from the cart, ensuring a smooth and intuitive user experience.",
+      "image": "./images/image-e-commerce.webp",
+      "imageAlternativeText": "Sneakers product page with it pictures and description",
+      "technology": "React",
+      "github": "https://github.com/Alain-sys/e-commerce-product-page",
+      "liveUrl": "https://alain-sys.github.io/e-commerce-product-page/"
     }
   ],
   "secondaryProjects": [
@@ -69,20 +69,36 @@
   ],
   "schoolProjects": [
     {
-      "title": "test title",
-      "description": "test description",
-      "image": "test image",
-      "technology": "react",
-      "github": "http",
-      "liveUrl": "http"
+      "title": "Mon Vieux Grimoire",
+      "description": "Development of the back-end for a book rating site using Node.js, Express, MongoDB and Mongoose. Set up a server to handle CRUD operations and book additions, as well as user account management with secure authentication. Implemented features for image uploading and optimization, and for calculating average ratings.",
+      "technology": "Node.js / Express / MongoDB / Mongoose",
+      "github": "https://github.com/Alain-sys/OC_Project7"
     },
     {
-      "title": "test title",
-      "description": "test description",
-      "image": "test image",
-      "technology": "react",
-      "github": "http",
-      "liveUrl": "http"
+      "title": "Sophie Bluel's Portfolio",
+      "description": "Design of an interactive web interface for an interior designer's website, incorporating JavaScript to interact with an API. Developed a project showcase page, an admin login interface, and a modal for creating additional projects and uploading media, based on the provided Figma mockups.",
+      "technology": "html / css / js",
+      "github": "https://github.com/Alain-sys/OC_project3"
+    },
+    {
+      "title": "Kasa",
+      "description": "Implementation of the front-end of an application using React and React Router, including the development of reusable generic components.",
+      "technology": "React / SCSS",
+      "github": "https://github.com/Alain-sys/OC_Project6"
+    },
+    {
+      "title": "Nina Carducci's Portfolio",
+      "description": "Optimization of a website's SEO, performance, and accessibility. Analyzed issues with Lighthouse and Wave, implemented recommendations to improve loading speed and SEO, and created a report illustrating the results before and after the changes.",
+      "technology": "html / css / js",
+      "github": "https://github.com/Alain-sys/OC_Project5",
+      "liveUrl": "https://alain-sys.github.io/OC_Project5/"
+    },
+    {
+      "title": "Booki",
+      "description": "Creation of a responsive homepage for a fictional travel agency in HTML/CSS based on Figma mockups. Version control with Git, and optimization for various devices.",
+      "technology": "html / css",
+      "github": "https://github.com/Alain-sys/OC_project2",
+      "liveUrl": "https://alain-sys.github.io/OC_project2/"
     }
   ]
 }

@@ -308,7 +308,9 @@ header {
 
 .about-section__list {
   display: flex;
-  gap: 64px;
+  flex-wrap: wrap;
+  column-gap: 64px;
+  row-gap: 14px;
   list-style: none;
 }
 
@@ -341,6 +343,10 @@ header {
 
 .work-section__title::after {
   background-color: var(--clr-work);
+}
+
+.work-section__title-school {
+  margin-top: var(--m-section);
 }
 
 .primary-block-card {
@@ -397,6 +403,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
+  gap: 16px;
 }
 
 .card__languages {
@@ -422,7 +429,8 @@ header {
   display: none;
 }
 
-.secondary-block-card.active {
+.secondary-block-card.active,
+.tertiary-block-card {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
@@ -431,7 +439,13 @@ header {
   gap: var(--m-card);
 }
 
-.secondary-card {
+.tertiary-block-card {
+  margin-top: var(--m-title);
+  margin-bottom: 0;
+}
+
+.secondary-card,
+.tertiary-card {
   display: flex;
   flex-direction: column;
   padding: 20px 0.9375rem;

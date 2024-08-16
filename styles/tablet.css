@@ -151,7 +151,8 @@
     color: var(--clr-card-links);
   }
 
-  .secondary-block-card.active {
+  .secondary-block-card.active,
+  .tertiary-block-card {
     grid-auto-rows: 285px;
   }
 
