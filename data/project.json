@@ -95,7 +95,7 @@
     },
     {
       "title": "Booki",
-      "description": "Creation of a responsive homepage for a fictional travel agency in HTML/CSS based on Figma mockups. Version control with Git, and optimization for various devices.",
+      "description": "Creation of a responsive homepage in HTML/CSS based on Figma mockups. Version control with Git, and optimization for various devices.",
       "technology": "html / css",
       "github": "https://github.com/Alain-sys/OC_project2",
       "liveUrl": "https://alain-sys.github.io/OC_project2/"
