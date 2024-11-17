@@ -361,7 +361,7 @@ header {
   max-height: 500px;
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .card__link-project {
@@ -403,7 +403,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
-  gap: 16px;
+  gap: 24px;
 }
 
 .card__languages {
@@ -416,7 +416,7 @@ header {
 
 .card__block-links {
   display: flex;
-  gap: 28px;
+  gap: 16px;
 }
 
 .card__links {
@@ -450,7 +450,7 @@ header {
   flex-direction: column;
   padding: 20px 0.9375rem;
   gap: 1.25rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .show-more {

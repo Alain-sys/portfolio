@@ -4,9 +4,19 @@ const generateMainProjects = (mainProjects) => {
     const primaryCard = document.createElement('div');
     primaryCard.classList.add('card');
     primaryCard.innerHTML = `
+    ${
+      project.liveUrl && project.liveUrl.length > 0
+        ? `
       <a class="card__link-project" href="${project.liveUrl}" aria-label="live url" target="_blank">
         <img class="card__img" src="${project.image}" alt="${project.imageAlternativeText}" />
       </a>
+      `
+        : `
+      <div class="card__link-project">
+        <img class="card__img" src="${project.image}" alt="${project.imageAlternativeText}" />
+      </div>
+      `
+    }
       <div class="card__content">
         <h3 class="card__title">${project.title}</h3>
         <p class="card__description">
@@ -23,6 +33,9 @@ const generateMainProjects = (mainProjects) => {
                 />
               </svg>
             </a>
+          ${
+            project.liveUrl && project.liveUrl.length > 0
+              ? `
             <a class="card__links" href="${project.liveUrl}" aria-label="live url" target="_blank">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -34,6 +47,9 @@ const generateMainProjects = (mainProjects) => {
                 />
               </svg>
             </a>
+            `
+              : ''
+          }
           </div>
         </div>
       </div>
@@ -64,16 +80,19 @@ const generateSecondaryProjects = (secondaryProjects) => {
                 fill="black" />
             </svg>
           </a>
-          <a class="card__links" href="${project.liveUrl}" aria-label="live url" target="_blank">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M13.4103 4.94872H3C1.89543 4.94872 1 5.84415 1 6.94872V21C1 22.1046 1.89543 23 3 23H17.0513C18.1559 23 19.0513 22.1046 19.0513 21V10.5897M11.7179 12.2821L23 1M23 1V8.33333M23 1H15.6667"
-                stroke="black"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </a>
+          ${project.liveUrl && project.liveUrl.length > 0 ? `
+            <a class="card__links" href="${project.liveUrl}" aria-label="live url" target="_blank">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.4103 4.94872H3C1.89543 4.94872 1 5.84415 1 6.94872V21C1 22.1046 1.89543 23 3 23H17.0513C18.1559 23 19.0513 22.1046 19.0513 21V10.5897M11.7179 12.2821L23 1M23 1V8.33333M23 1H15.6667"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+            `: ''
+          }
         </div>
       </div>
     `;
@@ -104,19 +123,19 @@ const generateSchoolProjects = (schoolProjects) => {
             </svg>
           </a>
          ${
-           project.liveUrl && project.liveUrl.length > 0 ? (
-            ` <a class="card__links" href="${project.liveUrl}" aria-label="live url" target="_blank">
-               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                 <path
-                   d="M13.4103 4.94872H3C1.89543 4.94872 1 5.84415 1 6.94872V21C1 22.1046 1.89543 23 3 23H17.0513C18.1559 23 19.0513 22.1046 19.0513 21V10.5897M11.7179 12.2821L23 1M23 1V8.33333M23 1H15.6667"
-                   stroke="black"
-                   stroke-width="1.5"
-                   stroke-linecap="round"
-                   stroke-linejoin="round"
-                 />
-               </svg>
-             </a>`
-           ) : ''
+           project.liveUrl && project.liveUrl.length > 0 ? ` 
+              <a class="card__links" href="${project.liveUrl}" aria-label="live url" target="_blank">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M13.4103 4.94872H3C1.89543 4.94872 1 5.84415 1 6.94872V21C1 22.1046 1.89543 23 3 23H17.0513C18.1559 23 19.0513 22.1046 19.0513 21V10.5897M11.7179 12.2821L23 1M23 1V8.33333M23 1H15.6667"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            ` : ''
          } 
         </div>
       </div>

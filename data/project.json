@@ -1,11 +1,19 @@
 {
   "mainProjects": [
     {
+      "title": "Kanban (in progress)",
+      "description": "",
+      "image": "./images/image-project-in-progress.webp",
+      "imageAlternativeText": "Kanban app, the app is in building phase",
+      "technology": "JS / TS / React / NodeJS / ExpressJS and more...",
+      "github": "https://github.com/Alain-sys/kanban"
+    },
+    {
       "title": "To Do list app",
       "description": "Allows users to manage their daily tasks. Uses React and CSS. Features include adding, deleting, and updating tasks, as well as filtering tasks by status (active, completed).",
       "image": "./images/image-todo-app.webp",
       "imageAlternativeText": "Todo list app in dark theme",
-      "technology": "React",
+      "technology": "React / JS / html / css",
       "github": "https://github.com/Alain-sys/todo-app",
       "liveUrl": "https://alain-sys.github.io/todo-app/"
     },
@@ -14,7 +22,7 @@
       "description": "First project built with React, an interactive site presenting data about planets. Utilized dynamic components and state management to display information through tabs (internal structure, geology, etc.). Responsive interface.",
       "image": "./images/image-planets-fact-site.webp",
       "imageAlternativeText": "Drawing of Mercury planet with geology and structure description",
-      "technology": "React",
+      "technology": "React / JS / html / css",
       "github": "https://github.com/Alain-sys/planets-fact-site",
       "liveUrl": "https://alain-sys.github.io/planets-fact-site/"
     },
@@ -32,7 +40,7 @@
       "description": "Development of an e-commerce product page in React, featuring full shopping cart management and an interactive image slider system for product presentation. The project highlights dynamic management of products to add or remove from the cart, ensuring a smooth and intuitive user experience.",
       "image": "./images/image-e-commerce.webp",
       "imageAlternativeText": "Sneakers product page with it pictures and description",
-      "technology": "React",
+      "technology": "React / JS / html / css",
       "github": "https://github.com/Alain-sys/e-commerce-product-page",
       "liveUrl": "https://alain-sys.github.io/e-commerce-product-page/"
     }
@@ -70,8 +78,8 @@
   "schoolProjects": [
     {
       "title": "Mon Vieux Grimoire",
-      "description": "Development of the back-end for a book rating site using Node.js, Express, MongoDB and Mongoose. Set up a server to handle CRUD operations and book additions, as well as user account management with secure authentication. Implemented features for image uploading and optimization, and for calculating average ratings.",
-      "technology": "Node.js / Express / MongoDB / Mongoose",
+      "description": "Development of the back-end for a book rating site using NodeJS, Express, MongoDB and Mongoose. Set up a server to handle CRUD operations and book additions, as well as user account management with secure authentication. Implemented features for image uploading and optimization, and for calculating average ratings.",
+      "technology": "NodeJS / ExpressJS / MongoDB / Mongoose",
       "github": "https://github.com/Alain-sys/OC_Project7"
     },
     {
