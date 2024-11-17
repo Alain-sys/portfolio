@@ -34,7 +34,7 @@
   --clr-contact-links: hsla(320.3, 37.6%, 69.2%, 1);
 
   --m-title: 1.75rem;
-  --m-section: 7.8125rem;
+  --m-section: 6.25rem;
   --m-link: 2.5rem;
   --m-card: 2rem;
 
@@ -274,7 +274,6 @@ header {
 .about-section {
   display: flex;
   flex-direction: column;
-  margin-top: 64px;
   padding: 0 var(--p-section);
 }
 
@@ -307,30 +306,22 @@ header {
 }
 
 .about-section__list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 64px;
-  row-gap: 14px;
-  list-style: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+  row-gap: 16px;
 }
 
-.about-section__list__items {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.about-section__list__categories,
+.about-section__list__skills {
   font-size: var(--fs-language);
   line-height: var(--lh-language);
-  font-weight: var(--fw-bold);
   text-transform: uppercase;
   color: var(--clr-text);
 }
 
-.about-section__list__items::before {
-  content: '';
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: var(--clr-about);
+.about-section__list__categories {
+  font-weight: var(--fw-bold);
 }
 
 .work-section {
